@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+}
+
+div#container {
+  position: relative;
+}
+div {
+  background-color: #00ffff;
+  color: gray;
+}
+
+.p1 {
+  border: 1px solid gray;
+}
+
+.p2 {
+  border: 1px solid gray;
+}
+
+.p3 {
+  border: 1px solid gray;
+}
+
+h1 {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12 {
+    float: left;
+    border: 3px solid green;
+    margin-left: 10px;
+    height: 300px;
+    position: relative;
+  }
+
+  .col-lg-1 {
+    width: 8.33%;
+  }
+
+  .col-lg-2 {
+    width: 16.66%;
+  }
+
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  .col-lg-4 {
+    width: 31%;
+  }
+
+  .col-lg-5 {
+    width: 41.66%;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  .col-lg-7 {
+    width: 58%;
+  }
+
+  .col-lg-8 {
+    width: 66%;
+  }
+
+  .col-lg-9 {
+    width: 74%;
+  }
+
+  .col-lg-10 {
+    width: 83%;
+  }
+
+  .col-lg-11 {
+    width: 91%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    float: left;
+    border: 3px solid blue;
+    margin-top: 10px;
+    height: 300px;
+    font-size: 120%;
+    position: relative;
+    margin-left: 10px;
+  }
+
+  .col-md-1 {
+    width: 8.33%;
+  }
+
+  .col-md-2 {
+    width: 16.66%;
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-4 {
+    width: 33%;
+  }
+
+  .col-md-5 {
+    width: 41.66%;
+  }
+
+  .col-md-6 {
+    width: 44.35%;
+  }
+
+  .col-md-7 {
+    width: 58%;
+  }
+
+  .col-md-8 {
+    width: 66%;
+  }
+
+  .col-md-9 {
+    width: 74%;
+  }
+
+  .col-md-10 {
+    width: 83%;
+  }
+
+  .col-md-11 {
+    width: 91%;
+  }
+  .col-md-12 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    font-size: 130%;
+    border: 3px solid blue;
+    width: 90%;
+    height: 300px;
+    position: relative;
+    margin-left: 10px;
+  }
+}
+
+.ele1 {
+  background: #00ffff;
+  height: 75vh;
+  width: 75vw;
+  padding: 1em;
+  position: relative;
+}
+
+.ele2 {
+  background: red;
+  position: absolute;
+  top: 25;
+  right: 0;
+}
+
+.parent {
+  background: #00ffff;
+  padding: 1em;
+  height: 50px;
+  position: relative;
+  top: 50px;
+}
+
+.child {
+  width: 175px;
+  height: 40px;
+  font-size: 24px;
+  text-align: center;
+  position: absolute;
+  border: 1px solid black;
+  top: 0;
+  right: 0;
+}
+
+.child1 {
+  background: rgba(255, 137, 137, 0.411);
+}
+
+.child2 {
+  background: hsla(0, 60%, 48%, 0.411);
+  color: white;
+}
+
+.child3 {
+  background: #caa061;
+}
